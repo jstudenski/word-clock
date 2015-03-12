@@ -20,7 +20,5 @@ function number_name(x) {
 
 
 
-
-
 console.log(number_name(3));
 
