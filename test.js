@@ -12,7 +12,15 @@ function number_name(x) {
 
 	numberarr = ["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve"];
 
+	if (x >= 13){
+	return numberarr[x - 13];
+
+	} else {
+
 	return numberarr[x - 1];
+
+	}
+
 
 }
 
@@ -20,5 +28,5 @@ function number_name(x) {
 
 
 
-console.log(number_name(3));
+console.log(number_name(13));
 
