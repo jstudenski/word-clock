@@ -1,7 +1,10 @@
  
+// add periods.
+
+
 $(document).ready(function () {
 
-  $("body").append("<p>test</p>");
+// $("body").append("<p>test</p>");
 
 function checkTime(i) {
     if (i < 10) {
@@ -31,8 +34,6 @@ function startTime() {
         }
     }
 
-
-
     if (m_rounded == 0) {
         document.getElementById('time').innerHTML = number_name(h);
     } else if (m_rounded == 5) {
@@ -50,7 +51,7 @@ function startTime() {
     } else if (m_rounded == 35) {
         document.getElementById('time').innerHTML = "twenty five to " + number_name(h+1);
     } else if (m_rounded == 40) {
-        document.getElementById('time').innerHTML = "twenty to " + number_name(h+1);
+        document.getElementById('time').innerHTML = "twenty to " + number_name(h+1) + ".";
     } else if (m_rounded == 45) {
         document.getElementById('time').innerHTML = "quarter to " + number_name(h+1);
     } else if (m_rounded == 50) {
