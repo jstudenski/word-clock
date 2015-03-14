@@ -37,7 +37,7 @@ function startTime() {
     if (m_rounded == 0) {
         document.getElementById('time').innerHTML = number_name(h);
     } else if (m_rounded == 5) {
-        document.getElementById('time').innerHTML = "five past  " + number_name(h);
+        document.getElementById('time').innerHTML = "five past " + number_name(h);
     } else if (m_rounded == 10) {
         document.getElementById('time').innerHTML = "ten past " + number_name(h);
     } else if (m_rounded == 15) {
